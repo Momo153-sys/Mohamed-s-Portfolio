@@ -6,9 +6,9 @@ import { projects } from "@/data/portfolio";
 export const Route = createFileRoute("/projects")({
   head: () => ({
     meta: [
-      { title: "Projects — Alex Carter" },
-      { name: "description", content: "A selection of products, libraries and tools built by Alex Carter." },
-      { property: "og:title", content: "Projects — Alex Carter" },
+      { title: "Projects — Mohamed Samba Doumbia" },
+      { name: "description", content: "A selection of products, libraries and tools built by Mohamed Samba Doumbia." },
+      { property: "og:title", content: "Projects — Mohamed Samba Doumbia" },
       { property: "og:description", content: "Real-world projects with problem, solution and stack." },
     ],
   }),

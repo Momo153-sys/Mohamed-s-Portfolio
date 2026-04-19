@@ -9,10 +9,10 @@ import { ArrowRight } from "lucide-react";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Alex Carter — Full-Stack Software Engineer" },
+      { title: "Mohamed Samba Doumbia — Full-Stack Software Engineer" },
       { name: "description", content: "I design and build fast, accessible products. Available for senior engineering roles." },
-      { property: "og:title", content: "Alex Carter — Full-Stack Software Engineer" },
-      { property: "og:description", content: "Portfolio, projects and experience of Alex Carter." },
+      { property: "og:title", content: "Mohamed Samba Doumbia — Full-Stack Software Engineer" },
+      { property: "og:description", content: "Portfolio, projects and experience of Mohamed Samba Doumbia." },
     ],
   }),
   component: Index,

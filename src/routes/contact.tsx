@@ -7,9 +7,9 @@ import { profile } from "@/data/portfolio";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — Alex Carter" },
-      { name: "description", content: "Get in touch with Alex Carter for roles, freelance or collaborations." },
-      { property: "og:title", content: "Contact — Alex Carter" },
+      { title: "Contact — Mohamed Samba Doumbia" },
+      { name: "description", content: "Get in touch with Mohamed Samba Doumbia for roles, freelance or collaborations." },
+      { property: "og:title", content: "Contact — Mohamed Samba Doumbia" },
       { property: "og:description", content: "Let's build something good together." },
     ],
   }),

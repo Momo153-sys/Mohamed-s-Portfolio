@@ -5,9 +5,9 @@ import { Timeline } from "@/components/site/Timeline";
 export const Route = createFileRoute("/experience")({
   head: () => ({
     meta: [
-      { title: "Experience — Alex Carter" },
-      { name: "description", content: "Work history, internships and education of Alex Carter." },
-      { property: "og:title", content: "Experience — Alex Carter" },
+      { title: "Experience — Mohamed Samba Doumbia" },
+      { name: "description", content: "Work history, internships and education of Mohamed Samba Doumbia." },
+      { property: "og:title", content: "Experience — Mohamed Samba Doumbia" },
       { property: "og:description", content: "A timeline of roles, impact and education." },
     ],
   }),

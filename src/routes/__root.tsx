@@ -30,9 +30,9 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Alex Carter — Full-Stack Software Engineer" },
-      { name: "description", content: "Portfolio of Alex Carter, a full-stack software engineer building fast, accessible products." },
-      { name: "author", content: "Alex Carter" },
+      { title: "Mohamed Samba Doumbia — Full-Stack Software Engineer" },
+      { name: "description", content: "Portfolio of Mohamed Samba Doumbia, a full-stack software engineer building fast, accessible products." },
+      { name: "author", content: "Mohamed Samba Doumbia" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
