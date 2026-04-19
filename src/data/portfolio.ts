@@ -19,7 +19,7 @@ export const skills = [
     items: ["Node.js", "SQL", "MongoDB", "Appwrite", "REST APIs"],
   },
   {
-    category: "Systems & Realtime",
+    category: "Systems",
     items: ["WebSockets", "State Management", "Event-Driven Architecture"],
   },
   {

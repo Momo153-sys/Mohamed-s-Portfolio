@@ -59,9 +59,8 @@ export function Hero() {
 
           <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-6 w-full max-w-2xl">
             {[
-              { k: "5+", v: "Years building" },
-              { k: "30+", v: "Shipped projects" },
-              { k: "8×", v: "Avg. perf gains" },
+              { k: "2+", v: "Years building" },
+              { k: "5+", v: "Shipped projects" },
               { k: "100%", v: "Care given" },
             ].map((s) => (
               <div key={s.v} className="glass rounded-xl p-4">

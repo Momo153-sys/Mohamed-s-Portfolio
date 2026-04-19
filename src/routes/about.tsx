@@ -28,13 +28,13 @@ const traits = [
     icon: Sparkles,
     title: "Engineering craft",
     body:
-      "I focus on building systems that feel fast, reliable, and intuitive — from rendering performance to clean architecture.",
+      "I focus on building systems that feel fast, reliable, and intuitive  from rendering performance to clean architecture.",
   },
   {
     icon: Target,
     title: "Outcome-driven",
     body:
-      "I prioritize work that improves real outcomes — performance, reliability, and user experience — not just shipping features.",
+      "I prioritize work that improves real outcomes  performance, reliability, and user experience not just shipping features.",
   },
   {
     icon: Users,

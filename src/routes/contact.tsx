@@ -21,7 +21,7 @@ function Contact() {
     <Section
       eyebrow="Say hello"
       title="Let’s build something good."
-      description="I’m currently open to senior engineering roles and selective freelance work. Usually reply within 24 hours."
+      description="I’m currently open to engineering roles and selective freelance work. Usually reply within 24 hours."
     >
       <div className="grid lg:grid-cols-[1fr_auto] gap-10 items-start">
         <ContactForm />
@@ -31,10 +31,10 @@ function Contact() {
             <Mail className="h-4 w-4 text-primary" /> {profile.email}
           </a>
           <a href={profile.github} target="_blank" rel="noreferrer" className="flex items-center gap-3 text-sm text-muted-foreground hover:text-foreground">
-            <Github className="h-4 w-4 text-primary" /> github.com/alexcarter
+            <Github className="h-4 w-4 text-primary" /> {profile.github}
           </a>
           <a href={profile.linkedin} target="_blank" rel="noreferrer" className="flex items-center gap-3 text-sm text-muted-foreground hover:text-foreground">
-            <Linkedin className="h-4 w-4 text-primary" /> linkedin.com/in/alexcarter
+            <Linkedin className="h-4 w-4 text-primary" /> {profile.linkedin}
           </a>
         </div>
       </div>

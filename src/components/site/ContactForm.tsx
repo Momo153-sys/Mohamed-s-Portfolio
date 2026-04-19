@@ -44,7 +44,7 @@ export function ContactForm() {
           <input
             name="name"
             className="mt-1 w-full px-3 py-2.5 rounded-lg bg-background/40 border border-input focus:outline-none focus:ring-2 focus:ring-ring"
-            placeholder="Jane Doe"
+            placeholder="Lionel Messi"
           />
           {errors.name && <p className="mt-1 text-xs text-destructive">{errors.name}</p>}
         </div>
@@ -54,7 +54,7 @@ export function ContactForm() {
             name="email"
             type="email"
             className="mt-1 w-full px-3 py-2.5 rounded-lg bg-background/40 border border-input focus:outline-none focus:ring-2 focus:ring-ring"
-            placeholder="jane@company.com"
+            placeholder="thegoat@gmail.com"
           />
           {errors.email && <p className="mt-1 text-xs text-destructive">{errors.email}</p>}
         </div>
@@ -71,7 +71,7 @@ export function ContactForm() {
       </div>
       <div className="flex items-center justify-between gap-4">
         <p className="text-xs text-muted-foreground">
-          Or email me at <a className="text-primary hover:underline" href="mailto:hello@alexcarter.dev">hello@alexcarter.dev</a>
+          Or email me at <a className="text-primary hover:underline" href="mailto:mohameddoum2000@gmail.com">mohameddoum2000@gmail.com</a>
         </p>
         <button
           disabled={busy}

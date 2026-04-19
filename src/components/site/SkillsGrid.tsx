@@ -4,8 +4,8 @@ import { Layers, Server, Wrench, Cloud } from "lucide-react";
 const icons = {
   Frontend: Layers,
   Backend: Server,
+  Systems: Cloud,
   Tools: Wrench,
-  DevOps: Cloud,
 } as const;
 
 export function SkillsGrid() {

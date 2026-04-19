@@ -38,7 +38,7 @@ export function Nav() {
               <Code2 className="h-4 w-4" />
               <span className="absolute -right-0.5 -top-0.5 h-2 w-2 rounded-full bg-primary glow-dot animate-pulse-ring" />
             </span>
-            <span className="text-sm tracking-tight">alex.dev</span>
+            <span className="text-sm tracking-tight">Mohamed.dev</span>
           </Link>
 
           <nav className="hidden md:flex items-center gap-1">
