@@ -1,5 +1,8 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
+  "framework": "vite",
+  "buildCommand": "vite build",
+  "outputDirectory": ".output",
+  "routes": [
+    { "src": "/(.*)", "dest": "/index" }
   ]
 }
